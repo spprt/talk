@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "sequelize": "^6.15.0",
+    "session-file-store": "^1.5.0",
+    "socket.io": "^4.4.1",
+    "sqlite3": "^5.0.2",
+    "ts-node": "^10.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/node": "^17.0.13",
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}
